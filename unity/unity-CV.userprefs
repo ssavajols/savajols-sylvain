@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{82FD7562-AB3C-9E35-0E84-6A8C2F23A205}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="unity Status">
+    <Files>
+      <File FileName="Assets/Scripts/CoolDown.cs" Line="22" Column="8" />
+      <File FileName="Assets/Scenes/CharacterSelect.cs" Line="99" Column="5" />
+      <File FileName="Assets/Heroes/Character.cs" Line="55" Column="22" />
+      <File FileName="Assets/Ennemies/ennemy.cs" Line="30" Column="24" />
+      <File FileName="Assets/Scripts/ControlPlayer.cs" Line="20" Column="1" />
+      <File FileName="Assets/Cameras/FollowPlayerCamera.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scenes/IntroductionMain.cs" Line="25" Column="23" />
+      <File FileName="Assets/Triggers/welcome-panel/WelcomePanel.cs" Line="26" Column="2" />
+      <File FileName="Assets/Scripts/AnimationsNameModel.cs" Line="14" Column="39" />
+      <File FileName="unity Status" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.unity-CV PreferredExecutionTarget="Unity.Editor" />
+</Properties>
