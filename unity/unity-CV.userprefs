@@ -3,7 +3,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="unity Status">
     <Files>
       <File FileName="Assets/Scripts/CoolDown.cs" Line="22" Column="8" />
-      <File FileName="Assets/Scenes/CharacterSelect.cs" Line="99" Column="5" />
+      <File FileName="Assets/Scenes/CharacterSelect.cs" Line="1" Column="1" />
       <File FileName="Assets/Heroes/Character.cs" Line="55" Column="22" />
       <File FileName="Assets/Ennemies/ennemy.cs" Line="30" Column="24" />
       <File FileName="Assets/Scripts/ControlPlayer.cs" Line="20" Column="1" />
