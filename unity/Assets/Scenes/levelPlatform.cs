@@ -11,6 +11,7 @@ public class levelPlatform : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
+		Debug.Log (GlobalData.h);
 	}
 	
 	// Update is called once per frame

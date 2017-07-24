@@ -17,6 +17,16 @@ public class CharacterSelect : MonoBehaviour
 	void Start ()
 	{
 		playerSelect ();
+
+		Debug.Log (GlobalData.h);
+		GlobalData.h = 50;
+
+		var cameraSize = Camera.main.orthographicSize;
+		var distanceBetweenCharacters = cameraSize * 2 / characters.Length;
+
+		for (var i = 0; i < characters.Length; i++) {
+			characters [i].transform.position = new Vector2 (-cameraSize / 2 + distanceBetweenCharacters * i, 0);
+		}
 	}
 	
 	// Update is called once per frame
@@ -51,7 +61,7 @@ public class CharacterSelect : MonoBehaviour
 
 	void playerSelect ()
 	{
-		cursor.transform.position = new Vector2 (characters [playerSelected].transform.position.x, -4);
+		cursor.transform.position = new Vector2 (characters [playerSelected].transform.position.x, -0.5f);
 
 		for (var i = 0; i < characters.Length; i++) {
 			characters [i].GetComponent<Animator> ().Play (AnimationsNameModel.stand);	

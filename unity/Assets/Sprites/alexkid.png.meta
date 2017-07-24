@@ -1,0 +1,1950 @@
+fileFormatVersion: 2
+guid: 4bcfb007ce3eb4c5cbbd5115871bef5b
+timeCreated: 1500813328
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: stand
+    21300002: run 1
+    21300004: run 2
+    21300006: run 3
+    21300008: run 4
+    21300010: alexkid_5
+    21300012: alexkid_6
+    21300014: alexkid_7
+    21300016: jump
+    21300018: jump fall
+    21300020: alexkid_10
+    21300022: alexkid_11
+    21300024: alexkid_12
+    21300026: alexkid_13
+    21300028: alexkid_14
+    21300030: alexkid_15
+    21300032: alexkid_16
+    21300034: alexkid_17
+    21300036: alexkid_18
+    21300038: alexkid_19
+    21300040: alexkid_20
+    21300042: alexkid_21
+    21300044: alexkid_22
+    21300046: alexkid_23
+    21300048: alexkid_24
+    21300050: alexkid_25
+    21300052: alexkid_26
+    21300054: alexkid_27
+    21300056: alexkid_28
+    21300058: alexkid_29
+    21300060: alexkid_30
+    21300062: alexkid_31
+    21300064: alexkid_32
+    21300066: alexkid_33
+    21300068: alexkid_34
+    21300070: alexkid_35
+    21300072: alexkid_36
+    21300074: alexkid_37
+    21300076: alexkid_38
+    21300078: alexkid_39
+    21300080: alexkid_40
+    21300082: alexkid_41
+    21300084: alexkid_42
+    21300086: alexkid_43
+    21300088: alexkid_44
+    21300090: alexkid_45
+    21300092: alexkid_46
+    21300094: alexkid_47
+    21300096: alexkid_48
+    21300098: alexkid_49
+    21300100: alexkid_50
+    21300102: alexkid_51
+    21300104: alexkid_52
+    21300106: alexkid_53
+    21300108: alexkid_54
+    21300110: alexkid_55
+    21300112: alexkid_56
+    21300114: alexkid_57
+    21300116: alexkid_58
+    21300118: alexkid_59
+    21300120: alexkid_60
+    21300122: alexkid_61
+    21300124: alexkid_62
+    21300126: alexkid_63
+    21300128: alexkid_64
+    21300130: alexkid_65
+    21300132: alexkid_66
+    21300134: alexkid_67
+    21300136: alexkid_68
+    21300138: alexkid_69
+    21300140: alexkid_70
+    21300142: alexkid_71
+    21300144: alexkid_72
+    21300146: alexkid_73
+    21300148: alexkid_74
+    21300150: alexkid_75
+    21300152: alexkid_76
+    21300154: alexkid_77
+    21300156: alexkid_78
+    21300158: alexkid_79
+    21300160: alexkid_80
+    21300162: alexkid_81
+    21300164: alexkid_82
+    21300166: alexkid_83
+    21300168: alexkid_84
+    21300170: alexkid_85
+    21300172: alexkid_86
+    21300174: alexkid_87
+    21300176: alexkid_88
+    21300178: alexkid_89
+    21300180: alexkid_90
+    21300182: alexkid_91
+    21300184: alexkid_92
+    21300186: alexkid_93
+    21300188: alexkid_94
+    21300190: alexkid_95
+    21300192: alexkid_96
+    21300194: alexkid_97
+    21300196: alexkid_98
+    21300198: alexkid_99
+    21300200: alexkid_100
+    21300202: alexkid_101
+    21300204: alexkid_102
+    21300206: alexkid_103
+    21300208: alexkid_104
+    21300210: alexkid_105
+    21300212: alexkid_106
+    21300214: alexkid_107
+    21300216: alexkid_108
+    21300218: alexkid_109
+    21300220: alexkid_110
+    21300222: alexkid_111
+    21300224: alexkid_112
+    21300226: alexkid_113
+    21300228: alexkid_114
+    21300230: alexkid_115
+    21300232: alexkid_116
+    21300234: alexkid_117
+    21300236: alexkid_118
+    21300238: alexkid_119
+    21300240: alexkid_120
+    21300242: alexkid_121
+    21300244: alexkid_122
+    21300246: alexkid_123
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: stand
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 382
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: run 1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 382
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: run 2
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 382
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: run 3
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 382
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: run 4
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 382
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_5
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 348
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_6
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 348
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_7
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 348
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: jump
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 316
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: jump fall
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 316
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_10
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 316
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_11
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 297
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_12
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 297
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_13
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 297
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_14
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 297
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_15
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 297
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_16
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 297
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_17
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 270
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_18
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 268
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_19
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 269
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_20
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 269
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_21
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 270
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_22
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 270
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_23
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 225
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_24
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 225
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_25
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 183
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_26
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 182
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_27
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 183
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_28
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 197
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_29
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 197
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_30
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 197
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_31
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 141
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_32
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 141
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_33
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 141
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_34
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 142
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_35
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 142
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_36
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 142
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_37
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 108
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_38
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 108
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_39
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 108
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_40
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 108
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 108
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_42
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 73
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_43
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 74
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_44
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 75
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_45
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 0
+        width: 84
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_46
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_47
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 46
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_48
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 46
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_49
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 46
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_50
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_51
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 46
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_52
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 44
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_53
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 46
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_54
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 46
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_55
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 44
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_56
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 46
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_57
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 46
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_58
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 46
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_59
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 46
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_60
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 46
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_61
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 46
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_62
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 46
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_63
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 46
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_64
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 46
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_65
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_66
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 30
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_67
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 30
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_68
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 32
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_69
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 32
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_70
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 32
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_71
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 32
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_72
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 32
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_73
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 32
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_74
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 32
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_75
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_76
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 32
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_77
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 32
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_78
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 32
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_79
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 32
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_80
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 32
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_81
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 32
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_82
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 0
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_83
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 18
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_84
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 18
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_85
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 18
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_86
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 18
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_87
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 18
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_88
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 18
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_89
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 18
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_90
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 18
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_91
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 18
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_92
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 18
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_93
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 18
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_94
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 16
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_95
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 18
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_96
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 18
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_97
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 18
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_98
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 18
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_99
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 18
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_100
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 16
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_101
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 18
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_102
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 16
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_103
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 4
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_104
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 4
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_105
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 4
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_106
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 4
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_107
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 4
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_108
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 4
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_109
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 4
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_110
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 4
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_111
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 4
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_112
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 4
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_113
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 4
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_114
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 4
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_115
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 4
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_116
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 4
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_117
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 4
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_118
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 2
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_119
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 4
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_120
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 4
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_121
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 4
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_122
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 4
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: alexkid_123
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 4
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

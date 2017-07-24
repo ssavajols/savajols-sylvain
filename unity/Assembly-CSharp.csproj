@@ -51,22 +51,30 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Cameras\BaseCamera.cs" />
-     <Compile Include="Assets\Cameras\FollowPlayerByBlockCamera.cs" />
-     <Compile Include="Assets\Cameras\FollowPlayerCamera.cs" />
-     <Compile Include="Assets\Ennemies\ennemy.cs" />
-     <Compile Include="Assets\Ennemies\scripts\IA\SimpleIA.cs" />
-     <Compile Include="Assets\Heroes\Character.cs" />
-     <Compile Include="Assets\Heroes\hero-1\CharacterRecruter1.cs" />
-     <Compile Include="Assets\Heroes\hero-2\CharacterRecruter2.cs" />
+     <Compile Include="Assets\DoorState.cs" />
      <Compile Include="Assets\Scenes\CharacterSelect.cs" />
      <Compile Include="Assets\Scenes\IntroductionMain.cs" />
      <Compile Include="Assets\Scenes\levelPlatform.cs" />
-     <Compile Include="Assets\Scripts\AnimationsNameModel.cs" />
+     <Compile Include="Assets\Scripts\AutoDestroyAfterAnimationEnd.cs" />
+     <Compile Include="Assets\Scripts\Cameras\AutoScalingCamera.cs" />
+     <Compile Include="Assets\Scripts\Cameras\BaseCamera.cs" />
+     <Compile Include="Assets\Scripts\Cameras\FollowPlayerByBlockCamera.cs" />
+     <Compile Include="Assets\Scripts\Cameras\FollowPlayerCamera.cs" />
+     <Compile Include="Assets\Scripts\Character.cs" />
+     <Compile Include="Assets\Scripts\CharacterRecruter1.cs" />
+     <Compile Include="Assets\Scripts\CharacterRecruter2.cs" />
      <Compile Include="Assets\Scripts\CharacterType.cs" />
      <Compile Include="Assets\Scripts\ControlPlayer.cs" />
      <Compile Include="Assets\Scripts\CoolDown.cs" />
-     <Compile Include="Assets\Triggers\welcome-panel\WelcomePanel.cs" />
+     <Compile Include="Assets\Scripts\data\GlobalCameraData.cs" />
+     <Compile Include="Assets\Scripts\data\GlobalData.cs" />
+     <Compile Include="Assets\Scripts\Door.cs" />
+     <Compile Include="Assets\Scripts\ennemy.cs" />
+     <Compile Include="Assets\Scripts\fader.cs" />
+     <Compile Include="Assets\Scripts\IA\SimpleIA.cs" />
+     <Compile Include="Assets\Scripts\models\AnimationsNameModel.cs" />
+     <Compile Include="Assets\Scripts\TriggerAnimationOnContact.cs" />
+     <Compile Include="Assets\Scripts\WelcomePanel.cs" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
