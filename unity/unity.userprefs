@@ -1,15 +1,16 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Character.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Door.cs">
     <Files>
-      <File FileName="Assets/Scripts/TriggerAnimationOnContact.cs" Line="15" Column="17" />
-      <File FileName="Assets/Scripts/fader.cs" Line="29" Column="57" />
-      <File FileName="Assets/Scenes/IntroductionMain.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Cameras/AutoScalingCamera.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scenes/CharacterSelect.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Cameras/FollowPlayerCamera.cs" Line="17" Column="27" />
-      <File FileName="Assets/Scripts/Character.cs" Line="82" Column="26" />
-      <File FileName="Assets/Scripts/ControlPlayer.cs" Line="17" Column="22" />
+      <File FileName="Assets/Scripts/waypointBuilder/WaypointBuilderScript.cs" Line="43" Column="69" />
+      <File FileName="Assets/Scripts/waypointBuilder/WaypointFollower.cs" Line="61" Column="32" />
+      <File FileName="Assets/Scripts/CharacterRecruter2.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Character.cs" Line="64" Column="4" />
+      <File FileName="Assets/Scripts/CharacterSounds.cs" Line="40" Column="3" />
+      <File FileName="Assets/Scripts/ControlPlayer.cs" Line="52" Column="19" />
+      <File FileName="Assets/Scripts/ennemy.cs" Line="17" Column="57" />
+      <File FileName="Assets/Scripts/Cameras/AutoScalingCamera.cs" Line="8" Column="32" />
+      <File FileName="Assets/Scripts/Door.cs" Line="42" Column="3" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,10 +19,16 @@
             <Node name="Assembly-CSharp" expanded="True">
               <Node name="Scripts" expanded="True">
                 <Node name="Cameras" expanded="True" />
-                <Node name="Character.cs" selected="True" />
+                <Node name="waypointBuilder" expanded="True" />
+                <Node name="Door.cs" selected="True" />
               </Node>
             </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>path [currentWaypoint].position.normalized - gameObject.transform.position.normalized</Value>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.NUnit.TestPad">
@@ -32,7 +39,10 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/ssavajols/oneDrive/Sites/own-projects/unity-cv/unity-cv/unity/Assets/Scripts/waypointBuilder/WaypointFollower.cs" line="115" column="35" />
+      <Breakpoint file="/Users/ssavajols/oneDrive/Sites/own-projects/unity-cv/unity-cv/unity/Assets/Scripts/Door.cs" line="29" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

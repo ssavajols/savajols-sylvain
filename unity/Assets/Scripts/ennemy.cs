@@ -14,7 +14,7 @@ public class ennemy : MonoBehaviour
 	void OnCollisionEnter2D (Collision2D coll)
 	{
 		// touch from up
-		if (coll.contacts [0].normal.y < 0) {
+		if (coll.contacts [0].normal.y < 0 && coll.gameObject.tag == "Player") {
 			hitted ();
 		}
 	}

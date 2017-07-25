@@ -1,0 +1,44 @@
+<linker>
+<assembly fullname="Assembly-CSharp">
+<type fullname="DoorState" preserve="all"/>
+<type fullname="CharacterSelect" preserve="all"/>
+<type fullname="IntroductionMain" preserve="all"/>
+<type fullname="levelPlatform" preserve="all"/>
+<type fullname="AutoDestroyAfterAnimationEnd" preserve="all"/>
+<type fullname="AutoScalingCamera" preserve="all"/>
+<type fullname="BaseCamera" preserve="all"/>
+<type fullname="FollowPlayerByBlockCamera" preserve="all"/>
+<type fullname="FollowPlayerCamera" preserve="all"/>
+<type fullname="Character" preserve="all"/>
+<type fullname="CharacterRecruter1" preserve="all"/>
+<type fullname="CharacterRecruter2" preserve="all"/>
+<type fullname="CharacterSounds" preserve="all"/>
+<type fullname="ControlPlayer" preserve="all"/>
+<type fullname="Door" preserve="all"/>
+<type fullname="ennemy" preserve="all"/>
+<type fullname="fader" preserve="all"/>
+<type fullname="SimpleIA" preserve="all"/>
+<type fullname="TriggerAnimationOnContact" preserve="all"/>
+<type fullname="WaypointBuilderScript" preserve="all"/>
+<type fullname="WaypointFollower" preserve="all"/>
+<type fullname="WelcomePanel" preserve="all"/>
+</assembly>
+<assembly fullname="UnityEngine.Analytics">
+<type fullname="UnityEngine.Analytics.AnalyticsTracker" preserve="all"/>
+</assembly>
+<assembly fullname="UnityEngine.Timeline">
+<type fullname="UnityEngine.Timeline.GroupTrack" preserve="all"/>
+<type fullname="UnityEngine.Timeline.TimelineAsset" preserve="all"/>
+<type fullname="UnityEngine.Timeline.TrackAsset" preserve="all"/>
+<type fullname="UnityEngine.Timeline.ActivationPlayableAsset" preserve="all"/>
+<type fullname="UnityEngine.Timeline.ActivationTrack" preserve="all"/>
+<type fullname="UnityEngine.Timeline.AnimationPlayableAsset" preserve="all"/>
+<type fullname="UnityEngine.Timeline.AnimationTrack" preserve="all"/>
+<type fullname="UnityEngine.Timeline.AudioPlayableAsset" preserve="all"/>
+<type fullname="UnityEngine.Timeline.AudioTrack" preserve="all"/>
+<type fullname="UnityEngine.Timeline.ControlPlayableAsset" preserve="all"/>
+<type fullname="UnityEngine.Timeline.ControlTrack" preserve="all"/>
+<type fullname="UnityEngine.Timeline.BasicPlayableBehaviour" preserve="all"/>
+<type fullname="UnityEngine.Timeline.PlayableTrack" preserve="all"/>
+</assembly>
+</linker>

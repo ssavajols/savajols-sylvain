@@ -20,6 +20,7 @@ public class Character : MonoBehaviour
 	public bool rightButton = false;
 	public bool activateButton = false;
 
+	CharacterSounds sounds;
 
 	bool isOnGround = false;
 
@@ -30,6 +31,7 @@ public class Character : MonoBehaviour
 	// Use this for initialization
 	protected void Start ()
 	{
+		sounds = GetComponent<CharacterSounds> ();
 		rb = GetComponent<Rigidbody2D> ();
 		animations = GetComponent<Animator> ();
 	}
@@ -38,6 +40,8 @@ public class Character : MonoBehaviour
 	{
 		if (coll.gameObject.tag == "Platform" && coll.contacts [0].normal.y > 0) {
 			createDust (fallDust);
+
+			sounds.playFall ();
 		}
 	}
 
@@ -59,8 +63,6 @@ public class Character : MonoBehaviour
 			}
 		}
 
-
-
 		isOnGround = _isOnGround;
 
 
@@ -69,14 +71,6 @@ public class Character : MonoBehaviour
 	void OnCollisionExit2D (Collision2D coll)
 	{
 		isOnGround = false;
-	}
-
-	void PreUpdate ()
-	{
-		jumpButton = false;
-		leftButton = false;
-		rightButton = false;
-		activateButton = false;
 	}
 
 	protected void Update ()
@@ -89,9 +83,7 @@ public class Character : MonoBehaviour
 		coolJump.Update ();
 		coolLeft.Update ();
 		coolRight.Update ();
-
-		Debug.Log (rb.velocity.x);
-
+	
 		if (!isOnGround) {
 			coolJump.prevent ();
 		}
@@ -103,8 +95,8 @@ public class Character : MonoBehaviour
 			animations.Play (AnimationsNameModel.jumpFall);
 			animations.speed = 1;
 		} else if (Mathf.Abs (rb.velocity.x) > 0) {
-//			animations.Play (AnimationsNameModel.run);
-			animations.speed = Mathf.Min (1, Mathf.Max (0, Mathf.Abs (rb.velocity.x)));	
+			animations.Play (AnimationsNameModel.run);
+			animations.speed = Mathf.Max (0, Mathf.Abs (rb.velocity.x / speed));	
 		} else {
 			animations.Play (AnimationsNameModel.idle);
 			animations.speed = 1;
@@ -114,7 +106,6 @@ public class Character : MonoBehaviour
 
 	public void goRight (bool run)
 	{
-		rightButton = true;
 		if (!coolRight.isCool) {
 			return;
 		}
@@ -127,7 +118,6 @@ public class Character : MonoBehaviour
 
 	public void goLeft (bool run)
 	{
-		leftButton = true;
 		if (!coolLeft.isCool) {
 			return;
 		}
@@ -140,14 +130,14 @@ public class Character : MonoBehaviour
 
 	public void jump ()
 	{
-
-		jumpButton = true;
+		
 		coolJump.prevent ();
 		if (!coolJump.isCool) {
 			return;
 		}
 
 		createDust (jumpDust);
+		sounds.playJump ();
 			
 		rb.velocity = new Vector2 (rb.velocity.x, jumpForce);
 
@@ -155,7 +145,6 @@ public class Character : MonoBehaviour
 
 	public void activate ()
 	{
-		activateButton = true;
 		Debug.Log ("activate press");
 	}
 

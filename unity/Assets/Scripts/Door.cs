@@ -7,6 +7,7 @@ public class Door : MonoBehaviour
 {
 	public Character player;
 	public string sceneToLoad = "";
+	public string urlToLoad = "";
 	// Use this for initialization
 	void Start ()
 	{
@@ -22,8 +23,22 @@ public class Door : MonoBehaviour
 	void OnTriggerStay2D (Collider2D coll)
 	{
 		if (player.activateButton) {
-			if (sceneToLoad != "")
+			if (sceneToLoad != "") {
 				SceneManager.LoadScene (sceneToLoad);
+			}
+				
+
+
+			if (urlToLoad != "") {
+				#if UNITY_WEBGL
+				Application.ExternalEval ("window.open('" + urlToLoad + "');");
+				#endif
+
+				#if UNITY_EDITOR
+				Application.OpenURL (urlToLoad);
+				#endif
+			}
 		}
+
 	}
 }

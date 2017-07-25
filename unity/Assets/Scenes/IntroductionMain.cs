@@ -47,8 +47,6 @@ public class IntroductionMain : MonoBehaviour
 
 		timeLeft -= Time.deltaTime;
 
-		Debug.Log (timeLeft);
-
 		if (timeLeft < 0f) {
 			SceneManager.LoadScene ("character-select");
 		}

@@ -63,6 +63,7 @@
      <Compile Include="Assets\Scripts\Character.cs" />
      <Compile Include="Assets\Scripts\CharacterRecruter1.cs" />
      <Compile Include="Assets\Scripts\CharacterRecruter2.cs" />
+     <Compile Include="Assets\Scripts\CharacterSounds.cs" />
      <Compile Include="Assets\Scripts\CharacterType.cs" />
      <Compile Include="Assets\Scripts\ControlPlayer.cs" />
      <Compile Include="Assets\Scripts\CoolDown.cs" />
@@ -74,6 +75,8 @@
      <Compile Include="Assets\Scripts\IA\SimpleIA.cs" />
      <Compile Include="Assets\Scripts\models\AnimationsNameModel.cs" />
      <Compile Include="Assets\Scripts\TriggerAnimationOnContact.cs" />
+     <Compile Include="Assets\Scripts\waypointBuilder\WaypointBuilderScript.cs" />
+     <Compile Include="Assets\Scripts\waypointBuilder\WaypointFollower.cs" />
      <Compile Include="Assets\Scripts\WelcomePanel.cs" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
