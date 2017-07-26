@@ -150,7 +150,9 @@ public class Character : MonoBehaviour
 
 	void createDust (GameObject dustObject)
 	{
-		var dust = Character.Instantiate (dustObject);
+		var dust = Instantiate (dustObject);
+
+		dust.transform.SetParent (gameObject.transform.parent.transform);
 
 		dust.transform.position = gameObject.transform.position;
 		var dustScale = dust.transform.localScale;

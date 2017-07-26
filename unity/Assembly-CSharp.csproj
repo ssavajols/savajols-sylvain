@@ -51,7 +51,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\DoorState.cs" />
      <Compile Include="Assets\Scenes\CharacterSelect.cs" />
      <Compile Include="Assets\Scenes\IntroductionMain.cs" />
      <Compile Include="Assets\Scenes\levelPlatform.cs" />
@@ -70,6 +69,7 @@
      <Compile Include="Assets\Scripts\data\GlobalCameraData.cs" />
      <Compile Include="Assets\Scripts\data\GlobalData.cs" />
      <Compile Include="Assets\Scripts\Door.cs" />
+     <Compile Include="Assets\Scripts\DoorState.cs" />
      <Compile Include="Assets\Scripts\ennemy.cs" />
      <Compile Include="Assets\Scripts\fader.cs" />
      <Compile Include="Assets\Scripts\IA\SimpleIA.cs" />
