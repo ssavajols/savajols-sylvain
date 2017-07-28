@@ -8,7 +8,7 @@ using UnityEditor;
 public class WaypointBuilderEditor : Editor
 {
 
-	public void OnInspectorGUI ()
+	new public void OnInspectorGUI ()
 	{
 		DrawDefaultInspector ();
 

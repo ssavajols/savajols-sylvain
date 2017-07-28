@@ -20,6 +20,7 @@ public class WaypointFollower : MonoBehaviour
 
 	Vector3 nextWaypointPosition;
 	Rigidbody2D rb;
+	Animator anim;
 
 	List<Transform> path;
 
@@ -27,6 +28,7 @@ public class WaypointFollower : MonoBehaviour
 	void Start ()
 	{
 		rb = GetComponent<Rigidbody2D> ();
+		anim = GetComponent<Animator> ();
 
 		if ((useRigidBodyForces || useRigidBodyVelocity) && rb == null) {
 			rb = gameObject.AddComponent<Rigidbody2D> ();
@@ -75,36 +77,24 @@ public class WaypointFollower : MonoBehaviour
 			rb.velocity = force;	
 		}
 
-		if (rb.velocity.x < 0) {
-
-			gameObject.transform.localScale = new Vector3 (
-				Mathf.Abs (gameObject.transform.localScale.x), 
-				gameObject.transform.localScale.y,
-				gameObject.transform.localScale.z);
-		} else {
-			gameObject.transform.localScale = new Vector3 (
-				-Mathf.Abs (gameObject.transform.localScale.x), 
-				gameObject.transform.localScale.y,
-				gameObject.transform.localScale.z);
+		if (anim != null) {
+			anim.speed = Mathf.Abs (rb.velocity.x) / 1;
 		}
+
+		setLocalScale (rb.velocity.x < 0);
+
 	}
 
 	void calcWithPosition ()
 	{
 		gameObject.transform.position = Vector3.MoveTowards (gameObject.transform.position, path [currentWaypoint].position, Time.deltaTime * speed);
 
-		if (gameObject.transform.position.x > path [currentWaypoint].position.x) {
 
-			gameObject.transform.localScale = new Vector3 (
-				Mathf.Abs (gameObject.transform.localScale.x), 
-				gameObject.transform.localScale.y,
-				gameObject.transform.localScale.z);
-		} else {
-			gameObject.transform.localScale = new Vector3 (
-				-Mathf.Abs (gameObject.transform.localScale.x), 
-				gameObject.transform.localScale.y,
-				gameObject.transform.localScale.z);
+		if (anim != null) {
+			anim.speed = Mathf.Abs (rb.velocity.x) / 1;
 		}
+
+		setLocalScale (gameObject.transform.position.x > path [currentWaypoint].position.x);
 	}
 
 	void getNextWaypoint ()
@@ -137,5 +127,21 @@ public class WaypointFollower : MonoBehaviour
 	List<Transform> getPaths ()
 	{
 		return wayPoints.GetComponent<WaypointBuilderScript> ().wayPoints;
+	}
+
+	void setLocalScale (bool reverse)
+	{
+		if (reverse) {
+
+			gameObject.transform.localScale = new Vector3 (
+				-Mathf.Abs (gameObject.transform.localScale.x), 
+				gameObject.transform.localScale.y,
+				gameObject.transform.localScale.z);
+		} else {
+			gameObject.transform.localScale = new Vector3 (
+				Mathf.Abs (gameObject.transform.localScale.x), 
+				gameObject.transform.localScale.y,
+				gameObject.transform.localScale.z);
+		}
 	}
 }

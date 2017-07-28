@@ -9,10 +9,10 @@ public class SimpleIA : MonoBehaviour
 	public float speed = 3F;
 
 	Vector2 currentVelocity;
-	Rigidbody2D rb;
+	public Rigidbody2D rb;
 
 	// Use this for initialization
-	void Start ()
+	protected void Start ()
 	{
 
 		rb = GetComponent<Rigidbody2D> ();
@@ -37,7 +37,7 @@ public class SimpleIA : MonoBehaviour
 	}
 
 	// Update is called once per frame
-	void Update ()
+	protected void Update ()
 	{
 		rb.velocity = currentVelocity * speed;
 		transform.localScale = new Vector2 (currentVelocity.x < 0 ? -1 : 1, 1);

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Character : MonoBehaviour
 {
@@ -163,5 +164,11 @@ public class Character : MonoBehaviour
 			dust.transform.localScale = new Vector3 (Mathf.Abs (dustScale.x), dustScale.y, dustScale.z);	
 		}
 
+	}
+
+	public void OnDeathZoneTouch ()
+	{
+
+		SceneManager.LoadScene (SceneManager.GetActiveScene ().name);	
 	}
 }

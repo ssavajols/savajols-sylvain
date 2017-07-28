@@ -5,15 +5,15 @@ using UnityEngine;
 public class AutoScalingCamera: MonoBehaviour
 {
 
-	float defaultOrthographicSize;
+	//	float defaultOrthographicSize;
 
-	public float maxOrthographicSize = 5;
+	//	public float maxOrthographicSize = 5;
 
 	// Use this for initialization
 	void Start ()
 	{
 		
-		defaultOrthographicSize = Camera.main.orthographicSize;
+//		defaultOrthographicSize = Camera.main.orthographicSize;
 	}
 	
 	// Update is called once per frame
