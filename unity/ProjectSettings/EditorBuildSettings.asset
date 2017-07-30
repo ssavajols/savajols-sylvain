@@ -17,3 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/contact.unity
     guid: f435f82702909451cbbcd7ff1bf21192
+  - enabled: 1
+    path: Assets/Scenes/level-shooter-1.unity
+    guid: 10489ea87fa8445ea98ecae899e6a3ed
+  - enabled: 1
+    path: Assets/Scenes/level-action-1.unity
+    guid: 59d0de42c5b334feaa1a6eec2549759d

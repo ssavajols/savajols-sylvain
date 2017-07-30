@@ -25,7 +25,7 @@ public class TriggerAnimationOnContact : MonoBehaviour
 		}
 
 
-		anims.Play ("idle");
+//		anims.Play ("idle");
 	}
 
 	void OnTriggerEnter2D (Collider2D coll)

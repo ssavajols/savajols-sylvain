@@ -25,6 +25,9 @@ GameObject:
   - component: {fileID: 50768528403177238}
   - component: {fileID: 114635584116441676}
   - component: {fileID: 114857014202421016}
+  - component: {fileID: 114160715595308394}
+  - component: {fileID: 114890188511739520}
+  - component: {fileID: 114425546546952228}
   m_Layer: 0
   m_Name: alexkid
   m_TagString: Player
@@ -39,8 +42,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1167229314914670}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.0624275, y: -1.8591774, z: 0}
-  m_LocalScale: {x: -1, y: 1, z: 1}
+  m_LocalPosition: {x: -5.57, y: -0.86, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -61,7 +64,7 @@ Rigidbody2D:
   m_AngularDrag: 0.05
   m_GravityScale: 4
   m_Material: {fileID: 0}
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
@@ -107,6 +110,29 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114160715595308394
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1167229314914670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 490ca2857c24d45d8a572982b2d4bc9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114425546546952228
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1167229314914670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2992ecc23032a49fdbd29b4454dfe474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isBlinking: 0
 --- !u!114 &114635584116441676
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -121,14 +147,12 @@ MonoBehaviour:
   jumpDust: {fileID: 1373609801761756, guid: 1253702a9e7c94b468504f62c5ec3881, type: 2}
   fallDust: {fileID: 1676560838341990, guid: 3d791efb17aa544a3badb2c08d6c30df, type: 2}
   rb: {fileID: 50768528403177238}
+  step: 20
   speed: 1.5
   speedRun: 3
-  jumpForce: 10
+  jumpForce: 500
   animations: {fileID: 95426203442669526}
-  jumpButton: 0
-  leftButton: 1
-  rightButton: 1
-  activateButton: 0
+  inputs: {fileID: 0}
 --- !u!114 &114857014202421016
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -143,6 +167,22 @@ MonoBehaviour:
   footstepClip: {fileID: 8300000, guid: 87a3690314fbe4022894025c321ffd8d, type: 3}
   jumpClip: {fileID: 8300000, guid: 87a3690314fbe4022894025c321ffd8d, type: 3}
   fallClip: {fileID: 8300000, guid: 87a3690314fbe4022894025c321ffd8d, type: 3}
+--- !u!114 &114890188511739520
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1167229314914670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbb170cd0c82a43bf9add78333534b73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rightButton: 0
+  leftButton: 0
+  jumpButton: 0
+  activateButton: 0
+  shiftButton: 0
 --- !u!212 &212258775470502350
 SpriteRenderer:
   m_ObjectHideFlags: 1

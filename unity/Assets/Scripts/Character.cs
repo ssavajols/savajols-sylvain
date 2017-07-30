@@ -6,28 +6,26 @@ using UnityEngine.SceneManagement;
 public class Character : MonoBehaviour
 {
 
-	public GameObject jumpDust;
-	public GameObject fallDust;
-	public Rigidbody2D rb;
 
-	public float speed;
-	public float speedRun;
-	public float jumpForce;
-
-	public Animator animations;
-
-	public bool jumpButton = false;
-	public bool leftButton = false;
-	public bool rightButton = false;
-	public bool activateButton = false;
-
+	BlinkRenderer blinkingRenderer;
 	CharacterSounds sounds;
-
-	bool isOnGround = false;
 
 	CoolDown coolJump = new CoolDown (0, 0.01F);
 	CoolDown coolRight = new CoolDown (0, 0.1F);
 	CoolDown coolLeft = new CoolDown (0, 0.1F);
+
+	bool isOnGround = false;
+
+	public int step = 20;
+	public float speed;
+	public float speedRun;
+	public float jumpForce = 500;
+
+	public GameObject jumpDust;
+	public GameObject fallDust;
+	public Rigidbody2D rb;
+	public Animator animations;
+	public InputController inputs;
 
 	// Use this for initialization
 	protected void Start ()
@@ -35,6 +33,8 @@ public class Character : MonoBehaviour
 		sounds = GetComponent<CharacterSounds> ();
 		rb = GetComponent<Rigidbody2D> ();
 		animations = GetComponent<Animator> ();
+		inputs = GetComponent<InputController> ();
+		blinkingRenderer = GetComponent<BlinkRenderer> ();
 	}
 
 	void OnCollisionEnter2D (Collision2D coll)
@@ -44,6 +44,15 @@ public class Character : MonoBehaviour
 
 			sounds.playFall ();
 		}
+
+		if (coll.gameObject.tag == "Ennemy") {
+			rb.AddForce (new Vector2 (coll.contacts [0].normal.x * (jumpForce / 3), jumpForce / 3));
+
+			if (coll.contacts [0].normal.y <= 0) {
+				setBlinking ();	
+			}
+		}
+
 	}
 
 	void OnCollisionStay2D (Collision2D coll)
@@ -74,9 +83,18 @@ public class Character : MonoBehaviour
 		isOnGround = false;
 	}
 
+	void setBlinking ()
+	{
+		
+		if (blinkingRenderer != null) {
+			blinkingRenderer.blinkSpeed = 0.05f;
+			blinkingRenderer.setBlinking (true, 1.5F);
+		}
+	}
+
 	protected void Update ()
 	{
-	
+		
 	}
 
 	protected void  FixedUpdate ()
@@ -105,31 +123,33 @@ public class Character : MonoBehaviour
 
 	}
 
-	public void goRight (bool run)
+	public void rightButton ()
 	{
 		if (!coolRight.isCool) {
 			return;
 		}
 
-		var velocity = run ? 1 * speedRun : 1 * speed;
+		var velocity = inputs.shiftButton ? 1 * speedRun : 1 * speed;
 
 		transform.localScale = new Vector2 (Mathf.Abs (transform.localScale.x), Mathf.Abs (transform.localScale.x));
+
 		rb.velocity = new Vector2 (velocity, rb.velocity.y);
 	}
 
-	public void goLeft (bool run)
+	public void leftButton ()
 	{
 		if (!coolLeft.isCool) {
 			return;
 		}
 
-		var velocity = run ? 1 * speedRun : 1 * speed;
+		var velocity = inputs.shiftButton ? 1 * speedRun : 1 * speed;
 
 		transform.localScale = new Vector2 (-Mathf.Abs (transform.localScale.x), Mathf.Abs (transform.localScale.x));
+
 		rb.velocity = new Vector2 (-velocity, rb.velocity.y);
 	}
 
-	public void jump ()
+	public void jumpButton ()
 	{
 		
 		coolJump.prevent ();
@@ -140,11 +160,11 @@ public class Character : MonoBehaviour
 		createDust (jumpDust);
 		sounds.playJump ();
 			
-		rb.velocity = new Vector2 (rb.velocity.x, jumpForce);
+		rb.AddForce (new Vector2 (0, jumpForce));
 
 	}
 
-	public void activate ()
+	public void activateButton ()
 	{
 		Debug.Log ("activate press");
 	}

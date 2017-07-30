@@ -10,13 +10,14 @@ public class WaypointFollower : MonoBehaviour
 	public int currentWaypoint = -1;
 	public float speed = 1;
 
+	public bool drawLineBetweenWaypoints;
+	public bool changeLocalScale = true;
 	public bool changeOnTouchWaypoint = true;
 	public bool followWaypoint = true;
 	public bool loop = true;
 	public bool destroyObjectAtEndPoint = false;
 	public bool destroyWaypointsAtEndPoint = false;
-	public bool useRigidBodyForces = false;
-	public bool useRigidBodyVelocity = false;
+	public bool useRigidBody = false;
 
 	Vector3 nextWaypointPosition;
 	Rigidbody2D rb;
@@ -30,8 +31,9 @@ public class WaypointFollower : MonoBehaviour
 		rb = GetComponent<Rigidbody2D> ();
 		anim = GetComponent<Animator> ();
 
-		if ((useRigidBodyForces || useRigidBodyVelocity) && rb == null) {
+		if (useRigidBody && rb == null) {
 			rb = gameObject.AddComponent<Rigidbody2D> ();
+			rb.isKinematic = true;
 		}
 	}
 	
@@ -46,7 +48,7 @@ public class WaypointFollower : MonoBehaviour
 		}
 
 		if (followWaypoint) {
-			if (useRigidBodyForces || useRigidBodyVelocity) {
+			if (useRigidBody) {
 				calcWithRigidBody ();
 			} else {
 				calcWithPosition ();
@@ -67,15 +69,11 @@ public class WaypointFollower : MonoBehaviour
 
 	void calcWithRigidBody ()
 	{
-		var target = path [currentWaypoint].position;
-		var source = gameObject.transform.position;
-		var force = (target - source).normalized * speed;
-			
-		if (useRigidBodyForces) {
-			rb.AddForce (force);
-		} else if (useRigidBodyVelocity) {
-			rb.velocity = force;	
-		}
+
+		Vector2 target = path [currentWaypoint].position;
+		Vector2 source = gameObject.transform.position;
+
+		rb.MovePosition (source + (target - source).normalized * speed * Time.fixedDeltaTime);
 
 		if (anim != null) {
 			anim.speed = Mathf.Abs (rb.velocity.x) / 1;
@@ -89,11 +87,7 @@ public class WaypointFollower : MonoBehaviour
 	{
 		gameObject.transform.position = Vector3.MoveTowards (gameObject.transform.position, path [currentWaypoint].position, Time.deltaTime * speed);
 
-
-		if (anim != null) {
-			anim.speed = Mathf.Abs (rb.velocity.x) / 1;
-		}
-
+		anim.speed = speed;
 		setLocalScale (gameObject.transform.position.x > path [currentWaypoint].position.x);
 	}
 
@@ -131,6 +125,12 @@ public class WaypointFollower : MonoBehaviour
 
 	void setLocalScale (bool reverse)
 	{
+
+		if (!changeLocalScale) {
+			return;
+		}
+			
+		
 		if (reverse) {
 
 			gameObject.transform.localScale = new Vector3 (

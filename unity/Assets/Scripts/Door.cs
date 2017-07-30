@@ -22,13 +22,11 @@ public class Door : MonoBehaviour
 
 	void OnTriggerStay2D (Collider2D coll)
 	{
-		if (player.activateButton) {
+		if (player.inputs.activateButton) {
 			if (sceneToLoad != "") {
 				SceneManager.LoadScene (sceneToLoad);
 			}
 				
-
-
 			if (urlToLoad != "") {
 				#if UNITY_WEBGL
 				Application.ExternalEval ("window.open('" + urlToLoad + "');");
