@@ -17,10 +17,10 @@ public class FollowPlayerCamera : BaseCamera
 	new protected void Update ()
 	{
 		
-		if (!isActive) {
+		if (!isActive || follower == null) {
 			return;
 		}
-
+			
 		transform.position = calcPosition ();
 	}
 

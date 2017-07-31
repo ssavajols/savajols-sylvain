@@ -11,5 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 12941, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Keys: []
-  m_Vals: []
+  m_Keys:
+  - {fileID: 11400000, guid: 9e2ee60465bca41ed9f6999ee470c9c4, type: 2}
+  m_Vals:
+  - timeInFrames: 1
+    timeAreaShownRange: {x: -5, y: 5}
+    m_Keys: []
+    m_Vals: []

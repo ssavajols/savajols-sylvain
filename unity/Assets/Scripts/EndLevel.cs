@@ -10,6 +10,7 @@ public class EndLevel : MonoBehaviour
 	public string sceneToLoad = "";
 	public bool play = false;
 	public float currentTime = 0;
+	public GameObject continueLabel;
 
 	PlayableDirector director;
 
@@ -31,6 +32,11 @@ public class EndLevel : MonoBehaviour
 		}
 
 		if (director.time > director.duration) {
+
+			if (continueLabel != null) {
+				continueLabel.GetComponentInChildren<BlinkRenderer> ().setBlinking (true, -1);
+			}
+
 			if (sceneToLoad != "" && Input.GetKey ("return")) {
 				SceneManager.LoadScene (sceneToLoad);
 			}
