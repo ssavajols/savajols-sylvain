@@ -1,23 +1,41 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/waypointBuilder/WaypointFollower.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Characters/ShooterEntity.cs">
     <Files>
-      <File FileName="Assets/Scripts/TriggerAnimationOnContact.cs" Line="28" Column="19" />
-      <File FileName="Assets/Scripts/CharacterRecruter2.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Character.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/CharacterSounds.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/ennemy.cs" Line="20" Column="36" />
-      <File FileName="Assets/Scripts/Cameras/AutoScalingCamera.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Door.cs" Line="1" Column="1" />
-      <File FileName="Assets/Editor/WaypointBuilderEditor.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/waypointBuilder/WaypointBuilderScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Editor/DeathZoneTest.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/waypointBuilder/WaypointFollower.cs" Line="90" Column="22" />
-      <File FileName="Assets/Scripts/IA/SimpleIAWithJump.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/IA/SimpleIA.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/BlinkRenderer.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/EndLevel.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Characters/ShooterEnnemy.cs" Line="30" Column="65" />
+      <File FileName="Assets/Scripts/Characters/ShooterEntity.cs" Line="57" Column="2" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="unity" expanded="True">
+            <Node name="Assembly-CSharp" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Cameras" expanded="True" />
+                <Node name="Characters" expanded="True">
+                  <Node name="ShooterEntity.cs" selected="True" />
+                </Node>
+                <Node name="IA" expanded="True" />
+                <Node name="Tools" expanded="True" />
+                <Node name="Triggers" expanded="True" />
+                <Node name="waypointBuilder" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Assembly-CSharp-Editor" expanded="True">
+              <Node name="Editor" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State name="__root__">
+          <Node name="unity" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
